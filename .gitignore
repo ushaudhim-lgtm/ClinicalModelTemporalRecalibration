@@ -10,7 +10,10 @@ __pycache__/
 # data/metadata (codebook pdfs) is small (~13MB) so that one is kept tracked
 data/raw/
 data/processed/
-outputs/
+outputs/*
+# but the hypothesis results summary is worth keeping tracked on github
+!outputs/reports/
+!outputs/reports/hypothesis_results.md
 
 # local-only credential store for pushing as the student github account,
 # never commit this, it holds a plaintext token
