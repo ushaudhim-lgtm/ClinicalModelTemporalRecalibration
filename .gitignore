@@ -11,3 +11,7 @@ __pycache__/
 data/raw/
 data/processed/
 outputs/
+
+# local-only credential store for pushing as the student github account,
+# never commit this, it holds a plaintext token
+.git-credentials-local
