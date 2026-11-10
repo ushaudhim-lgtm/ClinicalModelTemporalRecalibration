@@ -1,0 +1,45 @@
+{
+  "outcome_col": "admit",
+  "age_cutoff": 18,
+  "dev_years": [
+    2011,
+    2012,
+    2013,
+    2014
+  ],
+  "eval_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+  ],
+  "feature_cols": [
+    "AGE",
+    "SEX",
+    "ETHIM",
+    "RACER",
+    "TEMPF",
+    "PULSE",
+    "RESPR",
+    "BPSYS",
+    "BPDIAS",
+    "POPCT",
+    "ARREMS",
+    "IMMEDR",
+    "PAINSCALE",
+    "RESIDNCE",
+    "RFV1"
+  ],
+  "models": [
+    "logistic_regression",
+    "gradient_boosting"
+  ],
+  "metrics": [
+    "auroc",
+    "brier",
+    "cal_intercept",
+    "cal_slope",
+    "ece"
+  ]
+}

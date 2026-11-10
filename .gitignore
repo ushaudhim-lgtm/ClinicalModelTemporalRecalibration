@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+.DS_Store
+
+# large downloaded/generated data - regenerate locally via the 00-05 notebooks
+# instead of pushing these to GitHub (raw+processed data is ~580MB)
+# data/metadata (codebook pdfs) is small (~13MB) so that one is kept tracked
+data/raw/
+data/processed/
+outputs/
